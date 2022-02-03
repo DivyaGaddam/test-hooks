@@ -11,9 +11,9 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "ng test"
+      "pre-commit": "ng test --watch=false"
     }
- },
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.9",
